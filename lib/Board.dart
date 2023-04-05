@@ -115,7 +115,7 @@ class _BoardState extends State<Board> {
                       ),
                       SizedBox(
                         width: 220.0,
-                        child: RaisedButton(
+                        child: ElevatedButton(
                           onPressed: () {
                             Navigator.pop(context);
                           },
@@ -123,7 +123,7 @@ class _BoardState extends State<Board> {
                             "Close",
                             style: TextStyle(color: Colors.white),
                           ),
-                          color: Colors.blue,
+                          //color: Colors.blue,
                         ),
                       )
                     ],
